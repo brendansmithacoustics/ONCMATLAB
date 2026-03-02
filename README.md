@@ -1,0 +1,1 @@
+dataAvailability.m is a MATLAB script using Ocean Networks Canada's MATLAB API client to check hydrophone data availability and convert the file time stamps to a MATLAB datetime format. Note the data search time frame must be within the time frame that the hydrophone was deployed.
