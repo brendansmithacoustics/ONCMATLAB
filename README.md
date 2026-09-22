@@ -6,5 +6,5 @@ calibrateONChydrophoneSpectra.m is a MATLAB function which takes hydrophone audi
 hydrophoneCalibration_master.m is an example MATLAB script which calls this function and plots the result as a spectrogram and time-averaged spectrum.  
 The .flac audio file and .txt sensitivity files are provided for example use with this script and function.
 
-**Download hydrophone data**
+**Download hydrophone data**<br>
 downloadHydrophoneData.m is a MATLAB script using Ocean Networks Canada's MATLAB API client to download hydrophone audio data. The script requires the user to specify the location code of the hydrophone and time range of interest.
