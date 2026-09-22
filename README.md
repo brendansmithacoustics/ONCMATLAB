@@ -7,5 +7,4 @@ hydrophoneCalibration_master.m is an example MATLAB script which calls this func
 The .flac audio file and .txt sensitivity files are provided for example use with this script and function.
 
 **Download hydrophone data**
-
 downloadHydrophoneData.m is a MATLAB script using Ocean Networks Canada's MATLAB API client to download hydrophone audio data. The script requires the user to specify the location code of the hydrophone and time range of interest.
