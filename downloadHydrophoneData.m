@@ -22,7 +22,7 @@ fullDuration = days(endDate_dt - startDate_dt);
 
 % if target duration is longer than 1 day, split up the downloads into 1 day chunks (helps avoid the download failing mid-way and doesn't overload ONC servers)
 if fullDuration > days(1)
-    dateVector = startDate_dt:days(1):endDate_dt; % create date vector with 1-day resolution, this can be modified into different resolutions, for example days(1) instead of calmonths(1)
+    dateVector = startDate_dt:days(1):endDate_dt; % create date vector with 1-day resolution
     for i = 1:length(dateVector)-1
         % convert dates to string format for API request
         startDate = string(dateVector(i),'yyyy-MM-dd''T''HH:mm:ss.SSS''Z');
